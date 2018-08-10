@@ -17,7 +17,7 @@ import com.sun.codemodel.JCodeModel;
 public class JsonToPojo {
 
     public static void main(String[] args) {
-        String packageName = "anurag";
+        String packageName = "serialization";
         File inputJson = new File("C:\\Users\\wi20022508\\Desktop\\Bas\\input.json");
         File outputPojoDirectory = new File("C:\\Users\\wi20022508\\Desktop\\Output\\" + "Converted");
         outputPojoDirectory.mkdirs();
